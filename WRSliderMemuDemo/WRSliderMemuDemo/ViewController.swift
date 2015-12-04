@@ -16,6 +16,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         sliderMenu=WRSliderMemu(sender: self)
+        
+        let leftView=UIView(frame: CGRect(x: 0, y: 0, width: 100, height: UIScreen.mainScreen().bounds.height))
+        leftView.backgroundColor=UIColor.greenColor()
+        
+        sliderMenu.setContentView(leftView)
     }
 
     override func didReceiveMemoryWarning() {
