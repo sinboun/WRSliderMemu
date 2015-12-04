@@ -28,9 +28,15 @@ Where you need:
 You can customize the view on the left.Only need：
 ```swift  
 
- sliderMenu.setContentView(contentView:UIView)
+  
+        let leftView=UIView(frame: CGRect(x: 0, y: 0, width: 100, height: UIScreen.mainScreen().bounds.height))
+        leftView.backgroundColor=UIColor.greenColor()
+        
+        sliderMenu.setContentView(leftView)
+
    
 ```
+![image](https://raw.githubusercontent.com/TiltCitySong/WRSliderMemu/master/Explain/WRSliderMenu2.gif)   
 
 
 Thank you for checking my project.
