@@ -2,7 +2,7 @@
 
 I am a beginner, I hope my code can give more inspiration for beginners. If you find that the code has bug, or want to communicate with me, please contact: 1505482941@qq.com
 
-![image](https://raw.githubusercontent.com/TiltCitySong/Wrslidermemu-Master/master/master/WRSliderMenu.gif )   
+![image](https://raw.githubusercontent.com/TiltCitySong/WRSliderMemu/master/Explain/WRSliderMenu.gif)   
 
 Step 1:
 ```swift  
